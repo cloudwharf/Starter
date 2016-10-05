@@ -1,1 +1,1 @@
-CI-Demo
+CloudWharf Starter App

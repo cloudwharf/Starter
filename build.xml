@@ -16,6 +16,7 @@
         serverurl="${sf.serverurl}"
         maxPoll="${sf.maxPoll}"
         runAllTests="true"
+        testLevel="RunLocalTests"
         logType="Detail"
         deployRoot="src"
         rollbackOnError="true"/>

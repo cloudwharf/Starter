@@ -1,0 +1,14 @@
+<!-- More information at https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/daas_destructive_changes.htm-->
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ClassControllerName</members>
+        <members>ClassControllerName_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>VFPage</members>
+        <name>ApexPage</name>
+    </types>
+    <version>37.0</version>
+</Package>

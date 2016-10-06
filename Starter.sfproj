@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{da26a7c6-6437-4341-a520-2bc63bced799}</ProjectGuid>
+    <Login />
+    <Password>0m5h6uxAYDZVyoiiIZkH1ihwQFKFNeZ+pze9g8kg8oR2NLldavfnxA==</Password>
+    <SecurityToken>0m5h6uxAYDZVyoiiIZkH1ihwQFKFNeZ+pze9g8kg8oR2NLldavfnxA==</SecurityToken>
+    <Domain>login</Domain>
+    <Environment>0</Environment>
+    <ApexVersion>37.0</ApexVersion>
+    <Name>Starter</Name>
+    <AssemblyName>Starter</AssemblyName>
+    <RootNamespace>Starter</RootNamespace>
+    <ProjectVersion>4</ProjectVersion>
+    <PackageVersion>1.0.23.4</PackageVersion>
+    <SyncOption>True</SyncOption>
+    <AntSupport>True</AntSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="classes\" />
+    <Folder Include="Soql" />
+    <Folder Include="triggers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\ClassToUpload.cls">
+      <PhysicalRelativePath>src\classes\ClassToUpload.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p0Y000001X7iZQAS</Id>
+      <LastModifiedDateUtcTicks>131202100240000000</LastModifiedDateUtcTicks>
+      <Hash>/k+d7uhu9WIF3enw+8W4gA==</Hash>
+    </Compile>
+    <Compile Include="classes\SampleClass.cls">
+      <PhysicalRelativePath>src\classes\SampleClass.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p0Y000001X7iaQAC</Id>
+      <LastModifiedDateUtcTicks>131201340770000000</LastModifiedDateUtcTicks>
+      <Hash>P/qh8qJ0YbZcBXpNwPFObA==</Hash>
+    </Compile>
+    <Compile Include="classes\TEST_AccountTrigger.cls">
+      <PhysicalRelativePath>src\classes\TEST_AccountTrigger.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p0Y000002RRWaQAO</Id>
+      <LastModifiedDateUtcTicks>131202101900000000</LastModifiedDateUtcTicks>
+      <Hash>FtUP1YJ6NJKl3qCxmg6rVA==</Hash>
+    </Compile>
+    <Compile Include="classes\TEST_ClassToUpload.cls">
+      <PhysicalRelativePath>src\classes\TEST_ClassToUpload.cls</PhysicalRelativePath>
+      <SubType>Class</SubType>
+      <Id>01p0Y000001X7xfQAC</Id>
+      <LastModifiedDateUtcTicks>131201340770000000</LastModifiedDateUtcTicks>
+      <Hash>VVIiBzAoPQgOYeX+XNg7Ew==</Hash>
+    </Compile>
+    <Compile Include="triggers\sampleAccountTrigger.trigger">
+      <PhysicalRelativePath>src\triggers\sampleAccountTrigger.trigger</PhysicalRelativePath>
+      <SubType>Trigger</SubType>
+      <Id>01q0Y000000Tml3QAC</Id>
+      <LastModifiedDateUtcTicks>131202101480000000</LastModifiedDateUtcTicks>
+      <Hash>kKrH/iy4++0CS/gEwrV36Q==</Hash>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="classes\ClassToUpload.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\ClassToUpload.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131202100240000000</LastModifiedDateUtcTicks>
+      <Hash>chSpUW6sUNTEfXRjwHBJgg==</Hash>
+      <DependentUpon>classes\ClassToUpload.cls</DependentUpon>
+    </None>
+    <None Include="classes\SampleClass.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\SampleClass.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131201340770000000</LastModifiedDateUtcTicks>
+      <Hash>chSpUW6sUNTEfXRjwHBJgg==</Hash>
+      <DependentUpon>classes\SampleClass.cls</DependentUpon>
+    </None>
+    <None Include="classes\TEST_AccountTrigger.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\TEST_AccountTrigger.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131202101900000000</LastModifiedDateUtcTicks>
+      <Hash>chSpUW6sUNTEfXRjwHBJgg==</Hash>
+      <DependentUpon>classes\TEST_AccountTrigger.cls</DependentUpon>
+    </None>
+    <None Include="classes\TEST_ClassToUpload.cls-meta.xml">
+      <PhysicalRelativePath>src\classes\TEST_ClassToUpload.cls-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131201340770000000</LastModifiedDateUtcTicks>
+      <Hash>chSpUW6sUNTEfXRjwHBJgg==</Hash>
+      <DependentUpon>classes\TEST_ClassToUpload.cls</DependentUpon>
+    </None>
+    <None Include="triggers\sampleAccountTrigger.trigger-meta.xml">
+      <PhysicalRelativePath>src\triggers\sampleAccountTrigger.trigger-meta.xml</PhysicalRelativePath>
+      <SubType>Metadata</SubType>
+      <LastModifiedDateUtcTicks>131202101480000000</LastModifiedDateUtcTicks>
+      <Hash>x1eui99rZb3IHidSf2RqRw==</Hash>
+      <DependentUpon>triggers\sampleAccountTrigger.trigger</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Build.targets" />
+</Project>

@@ -8,7 +8,7 @@ private class TEST_AccountTrigger {
 		Account newAcc = new Account(Name = 'Mint');
 		insert newAcc;
 
-		Test.stopTest();
+		Test.startTest();
 
 		List<Account> accounts = [SELECT Name FROM Account WHERE ID =: newAcc.ID];
 		System.assertEquals('CloudWharf', accounts.get(0).Name);
